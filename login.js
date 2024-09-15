@@ -10,6 +10,10 @@ function validateForm() {
     window.location.href = "id/62712566/1.html";
     return false;
   }
+  else if (userid === "" && password === "") {
+    alert("IDとパスワードを入力してください");
+    return false;
+  }
   else {
     alert("お前部外者だな?不正アクセス禁止法違反だぞ!");
     return false;

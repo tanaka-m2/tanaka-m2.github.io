@@ -35,12 +35,13 @@ h2 {
 p {
   color: #666;
   margin: 0;
-  width: 50%;
+  width: 70%;
   margin: 16px auto;
   /* overflow: scroll; */
   font-weight: 400;
   font-family: "Zen Kurenaido", sans-serif;
   font-style: normal;
+  text-align: center;
 
 }  
 
