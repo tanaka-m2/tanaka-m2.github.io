@@ -60,7 +60,7 @@ form {
 }
 
 .card {
-  background-image: url("https://tanaka-m2.github.io/card.png");
+  background-image: url(https://tanaka-m2.github.io/card.png);
   margin: 16px auto;
   width: 50%;
 }
