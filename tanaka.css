@@ -60,9 +60,11 @@ form {
 }
 
 .card {
-  background-image: url(https://tanaka-m2.github.io/card.png);
-  margin: 16px auto;
-  width: 50%;
+  background-image: url(card.png);
+  background-size: cover;
+  margin: 0px auto;
+  width: 60%;
+  height: 350px;
 }
 
 .zen-kurenaido-regular {
@@ -116,4 +118,44 @@ footer {
 
 .accaiiCounter {
   margin: 16px auto;
+}
+
+.date {
+  position: relative;
+  top: 205px;
+  left: 160px;
+  font-family: "Zen Kurenaido", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.number {
+  position: relative;
+  top: 160px;
+  left: 350px;
+  font-family: "Zen Kurenaido", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.name {
+  position: relative;
+  top: 200px;
+  left: 200px;
+  font-family: "Zen Kurenaido", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
+#elapsed-time {
+  font-family: "Zen Kurenaido", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
 }

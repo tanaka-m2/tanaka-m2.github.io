@@ -22,8 +22,35 @@
     <main>
       <h2>Pandaのマイページ</h2>
       <div class="card">
-        <p>aaaa</p>
+      <div class="date">2024.9.15</div>
+      <div class="number">1</div>
+      <div class="name">Panda</div>
       </div>
+      <h2>ファン歴</h2>
+      <div id="elapsed-time"></div>
+
+      <script>
+        // Get the current date and time
+        var now = new Date();
+
+        // Set the target date and time (September 15, 2024 13:25:00)
+        var targetDate = new Date("2024-09-15T08:53:00");
+
+        // Calculate the time difference in milliseconds
+        var timeDiff = now - targetDate;
+
+        // Convert the time difference to minutes
+        var minutesDiff = Math.floor(timeDiff / (1000 * 60));
+
+        // Convert minutes to days, hours, and minutes
+        var days = Math.floor(minutesDiff / (60 * 24));
+        var hours = Math.floor((minutesDiff % (60 * 24)) / 60);
+        var minutes = minutesDiff % 60;
+
+        // Display the elapsed time on the page
+        document.getElementById("elapsed-time").textContent = "経過時間: " + days + "日 " + hours + "時間 " + minutes + "分";
+      </script>
+
     </main>
     <footer>
       <p>&copy; Villa Tanakarum 2024. All rights reserved.</p>
