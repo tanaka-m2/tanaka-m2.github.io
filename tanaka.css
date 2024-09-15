@@ -61,10 +61,8 @@ form {
 
 .card {
   background-image: url(card.png);
-  background-size: cover;
+  background-size: contain;
   margin: 0px auto;
-  width: 60%;
-  height: 350px;
 }
 
 .zen-kurenaido-regular {
