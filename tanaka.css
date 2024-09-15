@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: lightblue;
+  margin: 16px;
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  border: 4px none gray;
+  border-radius: 10px;
+  margin: auto;
+  background-color: white;
+  box-shadow: 0 0 10px gray;
+  width: 50%;
+}
+
+h2 {
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin: 16px auto;
+  width: 50%;
+}
+
+p {
+  color: #666;
+  margin: 0;
+  width: 50%;
+  margin: 16px auto;
+  /* overflow: scroll; */
+  font-weight: 400;
+
+}  
+
+article {
+  background-color: #fff;
+  padding: 16px;
+  border: 3px double gray;
+  margin: 16px auto;
+  width: 50%;
+}
+
+form {
+  text-align: center;
+  margin: 16px auto;
+  width: 50%;
+}
+
+.card {
+  background-image: url("card.png");
+  margin: 16px auto;
+  width: 50%;
+}
