@@ -15,7 +15,7 @@ function validateForm() {
     return false;
   }
   else if (userid === "" && password === "") {
-    alert("IDとパスワードを入力してください");
+    alert("番号とパスワードを入力してください");
     return false;
   }
   else {
