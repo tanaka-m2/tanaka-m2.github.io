@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+  
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="souta">
+    <meta name="description" content="田中OfficialSite">
+    <!-- koko -->
+    <title>yukaminnのマイページ</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&family=Noto+Sans+JP:wght@100..900&family=Zen+Kurenaido&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../../tanaka.css">
+  </head>
+  <body>
+    <header>
+      <h1>たな民の巣窟(仮称)</h1>
+    </header>
+    <main>
+      <!-- koko -->
+      <h2>yukaminn<br>マイページ</h2>
+      <img src="../../card.png" style="display: block; margin: 0 auto; width: 70%;">
+
+      <h2>ファン歴</h2>
+      <div id="elapsed-time"></div>
+
+      <script>
+        // Get the current date and time
+        var now = new Date();
+
+        // Set the target date and time (September 15, 2024 13:25:00)
+        var targetDate = new Date("2024-09-16T20:21:00");
+
+        // Calculate the time difference in milliseconds
+        var timeDiff = now - targetDate;
+
+        // Convert the time difference to minutes
+        var minutesDiff = Math.floor(timeDiff / (1000 * 60));
+
+        // Convert minutes to days, hours, and minutes
+        var days = Math.floor(minutesDiff / (60 * 24));
+        var hours = Math.floor((minutesDiff % (60 * 24)) / 60);
+        var minutes = minutesDiff % 60;
+
+        // Display the elapsed time on the page
+        document.getElementById("elapsed-time").textContent = days + "日 " + hours + "時間 " + minutes + "分";
+      </script>
+
+    </main>
+    <footer>
+      <p>&copy; Villa Tanakarum 2024. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
